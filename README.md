@@ -9,5 +9,4 @@
 
 ## 🚀 About
 
-1.  **Create a Gatsby site.**
     This is a tech blog I created with Rect/Gatsby
