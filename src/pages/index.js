@@ -12,7 +12,7 @@ const IndexPage = ()=> {
         <p>I'm making this blog to exercise and document working with React.</p>
         <StaticImage
           alt="We don't have bad days"
-          src='../images/noBadDays.jpg'
+          src='../images/noBadDays'
         />
       </Layout>
     </div>
