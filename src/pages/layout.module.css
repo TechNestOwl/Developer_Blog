@@ -7,6 +7,7 @@
 .heading {
   color: rgb(61, 51, 153);
 }
+/* NOTE: these kebab-case class name will be converted to camelCase */
 .nav-links {
   display: flex;
   list-style: none;
