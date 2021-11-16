@@ -15,17 +15,17 @@ import {
 
 const Layout = ({pageTitle, children})=> {
     const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
+        query {
+        site {
+            siteMetadata {
+            title
+            }
         }
-      }
-    }
-  `)
+        }
+    `)
     return(
         <div className={container}>
-            <title>{pageTitle}</title>
+            <title>{pageTitle} | {data.site.siteMetadata.title}</title>
             <h1>{data.site.siteMetadata.title}</h1>
             <nav>
                 <ul className={navLinks}>
