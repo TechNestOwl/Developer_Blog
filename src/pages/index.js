@@ -1,6 +1,7 @@
 import * as React from "react";
 // import {Link} from "gatsby";
-import Layout from "../pages/layout";
+import Layout from "./layout";
+import Blog from './blog';
 import { StaticImage } from "gatsby-plugin-image";
 
 
